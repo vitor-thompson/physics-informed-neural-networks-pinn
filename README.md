@@ -13,6 +13,6 @@ Repositório dedicado ao estudo prático e à evolução de **Physics-Informed N
 ---
 
 ## 🧪 Histórico de Evolução
-
-* **[v0.1 - Base do Curso]:** Implementação inicial do modelo de PINN seguindo o curso.
-* **[Em breve]:** Novas modificações na arquitetura, termos da *loss function* ou testes com novos sistemas físicos.
+- **[v0.1 — Base do Curso]:** Implementação inicial de referência (difusão 1D) adaptada do material base.
+- **[v0.2 — Passo 01 (`experiments/passo-01-resfriamento-newton/`)]:** Adaptação completa para a **Lei do Resfriamento de Newton** (EDO de 1ª ordem), incluindo arquitetura `PINNResfriamento`, perda física via `autograd` + condição inicial, comparação com a solução analítica e animação ao longo das épocas.
+- **[Em breve]:** Próximos passos da trilha com novas modificações na arquitetura, ajustes na `loss function` e experimentos com novos sistemas físicos e EDPs.
